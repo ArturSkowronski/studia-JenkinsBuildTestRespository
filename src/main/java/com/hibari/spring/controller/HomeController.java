@@ -13,7 +13,7 @@ public class HomeController {
 
 	@RequestMapping(value="/")
 	public ModelAndView test(HttpServletResponse response) throws IOException{
-		String dummyString="Test12345s";
+		String dummyString="Test12345ss";
 		return new ModelAndView("home");
 	}
 }
